@@ -91,8 +91,8 @@ public class Snake : Agent {
 
     private void FoodTeleport() {
         System.Random random = new System.Random();
-        int x = random.Next(-13, 14);
-        int z = random.Next(-13, 14);
+        int x = random.Next(-14, 15);
+        int z = random.Next(-14, 15);
         Vector3 pos = new Vector3(x, 0.45f, z);
 
         foreach (Transform body in bodies) {
